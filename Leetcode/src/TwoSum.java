@@ -10,11 +10,10 @@ public class TwoSum {
         int[] nums = new int[]{3,3};
         int target = 6;
 
-        System.out.println(Arrays.toString(twoSum(nums, target)));
+        System.out.println(Arrays.toString(solution(nums, target)));
 
     }
-
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] solution(int[] nums, int target) {
 
         int[] result = new int[2];
         Map<Integer, Integer> numExist = new HashMap<>();
