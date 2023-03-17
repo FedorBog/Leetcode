@@ -9,6 +9,6 @@ public class Test {
         char char1 = stack.peek();
 
         System.out.println(char1);
-        
+
     }
 }
